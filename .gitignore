@@ -1,0 +1,40 @@
+# Windows / WSL Zone Identifier files
+*:Zone.Identifier
+*.Zone.Identifier
+
+# Office / Binary Source Files (Markdown-only policy)
+*.pptx
+*.docx
+~$*
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Pytest / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases (local development)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

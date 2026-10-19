@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "SKU-100",
+    "name": "Industrial Submersible Pump 5HP",
+    "listed_price": 100.0,
+    "floor_price": 80.0,
+    "stock": 3
+  },
+  {
+    "sku": "SKU-101",
+    "name": "Heavy-Duty Conveyor Belt Roller Set",
+    "listed_price": 250.0,
+    "floor_price": 210.0,
+    "stock": 12
+  },
+  {
+    "sku": "SKU-102",
+    "name": "Precision Hydraulic Control Valve",
+    "listed_price": 150.0,
+    "floor_price": 120.0,
+    "stock": 0
+  }
+]

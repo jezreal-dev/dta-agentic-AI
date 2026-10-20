@@ -8,8 +8,11 @@ The **Seller Agent** acts as a virtual storefront assistant for independent supp
   - Qualify incoming leads using the **BANT** framework (Story 2.1).
   - Automatically counter low offers using `counter_offer()` while enforcing the supplier's minimum floor price (`NFR-03`) (Story 2.2).
   - Escalate unusual or out-of-policy requests to the supplier for human review (`FR-05`) (Story 2.3).
+- **Week 3 Agent Tool Foundations:**
+  - [`mini_agent_tool.py`](mini_agent_tool.py): Implements `get_product(sku)`, `check_delivery(pin_code)`, `get_discount_rate(cart_total)`, and `process_order(sku_list, pin_code)` with `is_nan()` and `safe_eval_price()` input validation.
 
-## Running Tests
+## Running Tools
 ```bash
 python3 projects/seller-agent/counter_offer.py
+python3 projects/seller-agent/mini_agent_tool.py
 ```
